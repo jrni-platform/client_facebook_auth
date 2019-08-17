@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "client_id":  {
+      "title": "Client ID",
+      "type": "string"
+    },
+    "consumer_secret":  {
+      "title": "consumer Secret",
+      "type": "string"
+    },
+    "redirect_url": {
+      "title": "Redirect URL",
+      "type": "string"
+    }
+  },
+  "required": []
+}

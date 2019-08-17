@@ -1,0 +1,31 @@
+{
+  "version": "0.1",
+  "name": "facebookScripts",
+  "description": "Facebook Client OAuth Scripts",
+  "platform": "nodejs8.10",
+  "created_at": "2018-10-24",
+  "updated_at": "2018-10-24",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"Auth",
+      "description":"Authenticate a Facebook user",
+      "type":"PublicScript",
+      "actions": ["Get", "Post"],
+      "log_type": "None",
+      "enabled": true,
+      "handler": "facebook_auth",
+      "root_page":"login"
+    },
+    {
+      "name":"CustomSSO",
+      "description":"Authenticate a user with a bespoke SSO",
+      "type":"SSO",
+      "actions": ["member_login"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "custom_sso"
+    }    
+  ]
+}

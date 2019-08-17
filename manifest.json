@@ -1,0 +1,19 @@
+{
+  "bbAppManifestVersion":"1.0",
+  "name": "Facebook Integration",
+  "unique_name": "client_facebook_auth",
+  "version": "0.1",
+  "description": "A Client OAuth2 Facebook integration",
+  "author": "BookingBug",
+  "licence": "GPL",
+  "tags": "client facebook auth oauth",
+  "config": true,
+  "panels": [ ],
+  "objects": [
+  ],
+  "script_packs": [
+    "facebook_scripts"
+  ],
+  "liquid": [
+  ]
+}
